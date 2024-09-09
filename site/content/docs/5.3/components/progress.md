@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Progress
-description: Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.
+description: Documentation and examples for using GoTrash Theme custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.
 group: components
 toc: true
 ---
@@ -44,7 +44,7 @@ Put that all together, and you have the following examples.
 
 ### Width
 
-Bootstrap provides a handful of [utilities for setting width]({{< docsref "/utilities/sizing" >}}). Depending on your needs, these may help with quickly configuring the width of the `.progress-bar`.
+GoTrash Theme provides a handful of [utilities for setting width]({{< docsref "/utilities/sizing" >}}). Depending on your needs, these may help with quickly configuring the width of the `.progress-bar`.
 
 {{< example >}}
 <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -187,7 +187,7 @@ The striped gradient can also be animated. Add `.progress-bar-animated` to `.pro
 
 {{< added-in "5.2.0" >}}
 
-As part of Bootstrap's evolving CSS variables approach, progress bars now use local CSS variables on `.progress` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
+As part of GoTrash Theme's evolving CSS variables approach, progress bars now use local CSS variables on `.progress` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
 
 {{< scss-docs name="progress-css-vars" file="scss/_progress.scss" >}}
 

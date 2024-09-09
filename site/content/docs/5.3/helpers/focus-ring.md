@@ -48,7 +48,7 @@ By default, there is no `--bs-focus-ring-x`, `--bs-focus-ring-y`, or `--bs-focus
 
 ### Sass variables
 
-Customize the focus ring Sass variables to modify all usage of the focus ring styles across your Bootstrap-powered project.
+Customize the focus ring Sass variables to modify all usage of the focus ring styles across your GoTrash Theme-powered project.
 
 {{< scss-docs name="focus-ring-variables" file="scss/_variables.scss" >}}
 

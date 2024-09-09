@@ -1,7 +1,7 @@
 /*!
-  * Bootstrap template-factory.js v5.3.3 (https://getbootstrap.com/)
-  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  * GoTrash Theme template-factory.js v5.3.3 (https://getbootstrap.com/)
+  * Copyright 2011-2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors)
+  * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('../dom/selector-engine.js'), require('./config.js'), require('./sanitizer.js'), require('./index.js')) :
@@ -11,8 +11,8 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap util/template-factory.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+   * GoTrash Theme util/template-factory.js
+   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 

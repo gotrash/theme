@@ -1,6 +1,6 @@
 /*!
- * Bootstrap Docs (https://getbootstrap.com/)
- * Copyright 2011-2024 The Bootstrap Authors
+ * GoTrash Theme Docs (https://getbootstrap.com/)
+ * Copyright 2011-2024 The GoTrash Theme Authors
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  * For details, see https://creativecommons.org/licenses/by/3.0/.
  */
@@ -9,20 +9,20 @@
 //
 // Background information on nomenclature and architecture decisions here.
 //
-// - Bootstrap functions, variables, and mixins are included for easy reuse.
-//   Doing so gives us access to the same core utilities provided by Bootstrap.
+// - GoTrash Theme functions, variables, and mixins are included for easy reuse.
+//   Doing so gives us access to the same core utilities provided by GoTrash Theme.
 //   For example, consistent media queries through those mixins.
 //
-// - Bootstrap's **docs variables** are prefixed with `$bd-`.
-//   These custom colors avoid collision with the components Bootstrap provides.
+// - GoTrash Theme's **docs variables** are prefixed with `$bd-`.
+//   These custom colors avoid collision with the components GoTrash Theme provides.
 //
 // - Classes are prefixed with `.bd-`.
 //   These classes indicate custom-built or modified components for the design
-//   and layout of the Bootstrap docs. They are not included in our builds.
+//   and layout of the GoTrash Theme docs. They are not included in our builds.
 //
-// Happy Bootstrapping!
+// Happy GoTrash Themeping!
 
-// Load Bootstrap variables and mixins
+// Load GoTrash Theme variables and mixins
 @import "../../../scss/functions";
 @import "../../../scss/variables";
 @import "../../../scss/mixins";

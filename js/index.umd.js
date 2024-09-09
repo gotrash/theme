@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap index.umd.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * GoTrash Theme index.umd.js
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

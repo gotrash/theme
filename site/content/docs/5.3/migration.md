@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Migrating to v5
-description: Track and review changes to the Bootstrap source files, documentation, and components to help you migrate from v4 to v5.
+description: Track and review changes to the GoTrash Theme source files, documentation, and components to help you migrate from v4 to v5.
 group: migration
 aliases: "/migration/"
 toc: true
@@ -61,7 +61,7 @@ If you're migrating from our previous alpha release of v5.3.0, please review the
 
 ### Helpers
 
-- Added new `.icon-link` helper to quickly place and align Bootstrap Icons alongside a textual link. Icon links support our new link utilities, too.
+- Added new `.icon-link` helper to quickly place and align GoTrash Theme Icons alongside a textual link. Icon links support our new link utilities, too.
 
 - Added new focus ring helper for removing the default `outline` and setting a custom `box-shadow` focus ring.
 
@@ -238,7 +238,7 @@ We've also introduced a new `.progress-stacked` class to more logically wrap [mu
 
 - [Box shadow utilities]({{< docsref "/utilities/shadows" >}}) (and Sass variables) have been updated for dark mode. They now use `--bs-body-color-rgb` to generate the `rgba()` color values, allowing them to easily adapt to color modes based on the specified foreground color.
 
-For a complete list of changes, [see the v5.3.0 project on GitHub](https://github.com/twbs/bootstrap/projects/).
+For a complete list of changes, [see the v5.3.0 project on GitHub](https://github.com/gotrash/theme/projects/).
 
 ## v5.2.0
 
@@ -246,21 +246,21 @@ For a complete list of changes, [see the v5.3.0 project on GitHub](https://githu
 
 ### Refreshed design
 
-Bootstrap v5.2.0 features a subtle design update for a handful of components and properties across the project, **most notably through refined `border-radius` values on buttons and form controls**. Our documentation also has been updated with a new homepage, simpler docs layout that no longer collapses sections of the sidebar, and more prominent examples of [Bootstrap Icons](https://icons.getbootstrap.com).
+GoTrash Theme v5.2.0 features a subtle design update for a handful of components and properties across the project, **most notably through refined `border-radius` values on buttons and form controls**. Our documentation also has been updated with a new homepage, simpler docs layout that no longer collapses sections of the sidebar, and more prominent examples of [GoTrash Theme Icons](https://icons.getbootstrap.com).
 
 ### More CSS variables
 
-**We've updated all our components to use CSS variables.** While Sass still underpins everything, each component has been updated to include CSS variables on the component base classes (e.g., `.btn`), allowing for more real-time customization of Bootstrap. In subsequent releases, we'll continue to expand our use of CSS variables into our layout, forms, helpers, and utilities. Read more about CSS variables in each component on their respective documentation pages.
+**We've updated all our components to use CSS variables.** While Sass still underpins everything, each component has been updated to include CSS variables on the component base classes (e.g., `.btn`), allowing for more real-time customization of GoTrash Theme. In subsequent releases, we'll continue to expand our use of CSS variables into our layout, forms, helpers, and utilities. Read more about CSS variables in each component on their respective documentation pages.
 
-Our CSS variable usage will be somewhat incomplete until Bootstrap 6. While we'd love to fully implement these across the board, they do run the risk of causing breaking changes. For example, setting `$alert-border-width: var(--bs-border-width)` in our source code breaks potential Sass in your own code if you were doing `$alert-border-width * 2` for some reason.
+Our CSS variable usage will be somewhat incomplete until GoTrash Theme 6. While we'd love to fully implement these across the board, they do run the risk of causing breaking changes. For example, setting `$alert-border-width: var(--bs-border-width)` in our source code breaks potential Sass in your own code if you were doing `$alert-border-width * 2` for some reason.
 
 As such, wherever possible, we will continue to push towards more CSS variables, but please recognize our implementation may be slightly limited in v5.
 
 ### New `_maps.scss`
 
-**Bootstrap v5.2.0 introduced a new Sass file with `_maps.scss`.** It pulls out several Sass maps from `_variables.scss` to fix an issue where updates to an original map were not applied to secondary maps that extend them. For example, updates to `$theme-colors` were not being applied to other theme maps that relied on `$theme-colors`, breaking key customization workflows. In short, Sass has a limitation where once a default variable or map has been _used_, it cannot be updated. _There's a similar shortcoming with CSS variables when they're used to compose other CSS variables._
+**GoTrash Theme v5.2.0 introduced a new Sass file with `_maps.scss`.** It pulls out several Sass maps from `_variables.scss` to fix an issue where updates to an original map were not applied to secondary maps that extend them. For example, updates to `$theme-colors` were not being applied to other theme maps that relied on `$theme-colors`, breaking key customization workflows. In short, Sass has a limitation where once a default variable or map has been _used_, it cannot be updated. _There's a similar shortcoming with CSS variables when they're used to compose other CSS variables._
 
-This is why variable customizations in Bootstrap have to come after `@import "functions"`, but before `@import "variables"` and the rest of our import stack. The same applies to Sass maps—you must override the defaults before they get used. The following maps have been moved to the new `_maps.scss`:
+This is why variable customizations in GoTrash Theme have to come after `@import "functions"`, but before `@import "variables"` and the rest of our import stack. The same applies to Sass maps—you must override the defaults before they get used. The following maps have been moved to the new `_maps.scss`:
 
 - `$theme-colors-rgb`
 - `$utilities-colors`
@@ -271,7 +271,7 @@ This is why variable customizations in Bootstrap have to come after `@import "fu
 - `$negative-spacers`
 - `$gutters`
 
-Your custom Bootstrap CSS builds should now look something like this with a separate maps import.
+Your custom GoTrash Theme CSS builds should now look something like this with a separate maps import.
 
 ```diff
   // Functions come first
@@ -313,7 +313,7 @@ Your custom Bootstrap CSS builds should now look something like this with a sepa
 
 - **Thicker table dividers are now opt-in. —** We've removed the thicker and more difficult to override border between table groups and moved it to an optional class you can apply, `.table-group-divider`. [See the table docs for an example.]({{< docsref "/content/tables#table-group-dividers" >}})
 
-- **[Scrollspy has been rewritten](https://github.com/twbs/bootstrap/pull/33421) to use the Intersection Observer API**, which means you no longer need relative parent wrappers, deprecates `offset` config, and more. Look for your Scrollspy implementations to be more accurate and consistent in their nav highlighting.
+- **[Scrollspy has been rewritten](https://github.com/gotrash/theme/pull/33421) to use the Intersection Observer API**, which means you no longer need relative parent wrappers, deprecates `offset` config, and more. Look for your Scrollspy implementations to be more accurate and consistent in their nav highlighting.
 
 - **Popovers and tooltips now use CSS variables.** Some CSS variables have been updated from their Sass counterparts to reduce the number of variables. As a result, three variables have been deprecated in this release: `$popover-arrow-color`, `$popover-arrow-outer-color`, and `$tooltip-arrow-color`.
 
@@ -323,7 +323,7 @@ Your custom Bootstrap CSS builds should now look something like this with a sepa
 
 - Added [striped columns]({{< docsref "/content/tables#striped-columns" >}}) support to tables via the new `.table-striped-columns` class.
 
-For a complete list of changes, [see the v5.2.0 project on GitHub](https://github.com/twbs/bootstrap/projects/32).
+For a complete list of changes, [see the v5.2.0 project on GitHub](https://github.com/gotrash/theme/projects/32).
 
 ## v5.1.0
 
@@ -354,7 +354,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 <hr class="mb-4">
 
 {{< callout info >}}
-**Hey there!** Changes to our first major release of Bootstrap 5, v5.0.0, are documented below. They don't reflect the additional changes shown above.
+**Hey there!** Changes to our first major release of GoTrash Theme 5, v5.0.0, are documented below. They don't reflect the additional changes shown above.
 {{< /callout >}}
 
 ### Dependencies
@@ -391,7 +391,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - We've ditched the default Sass map merges to make it easier to remove redundant values. Keep in mind you now have to define all values in the Sass maps like `$theme-colors`. Check out how to deal with [Sass maps]({{< docsref "/customize/sass#maps-and-loops" >}}).
 
-- <span class="badge text-bg-danger">Breaking</span> Renamed `color-yiq()` function and related variables to `color-contrast()` as it's no longer related to YIQ color space. [See #30168.](https://github.com/twbs/bootstrap/pull/30168/)
+- <span class="badge text-bg-danger">Breaking</span> Renamed `color-yiq()` function and related variables to `color-contrast()` as it's no longer related to YIQ color space. [See #30168.](https://github.com/gotrash/theme/pull/30168/)
   - `$yiq-contrasted-threshold` is renamed to `$min-contrast-ratio`.
   - `$yiq-text-dark` and `$yiq-text-light` are respectively renamed to `$color-contrast-dark` and `$color-contrast-light`.
 
@@ -399,11 +399,11 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
   - `media-breakpoint-down()` uses the breakpoint itself instead of the next breakpoint (e.g., `media-breakpoint-down(lg)` instead of `media-breakpoint-down(md)` targets viewports smaller than `lg`).
   - Similarly, the second parameter in `media-breakpoint-between()` also uses the breakpoint itself instead of the next breakpoint (e.g., `media-breakpoint-between(sm, lg)` instead of `media-breakpoint-between(sm, md)` targets viewports between `sm` and `lg`).
 
-- <span class="badge text-bg-danger">Breaking</span> Removed print styles and `$enable-print-styles` variable. Print display classes are still around. [See #28339](https://github.com/twbs/bootstrap/pull/28339).
+- <span class="badge text-bg-danger">Breaking</span> Removed print styles and `$enable-print-styles` variable. Print display classes are still around. [See #28339](https://github.com/gotrash/theme/pull/28339).
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `color()`, `theme-color()`, and `gray()` functions in favor of variables. [See #29083](https://github.com/twbs/bootstrap/pull/29083).
+- <span class="badge text-bg-danger">Breaking</span> Dropped `color()`, `theme-color()`, and `gray()` functions in favor of variables. [See #29083](https://github.com/gotrash/theme/pull/29083).
 
-- <span class="badge text-bg-danger">Breaking</span> Renamed `theme-color-level()` function to `color-level()` and now accepts any color you want instead of only `$theme-color` colors. [See #29083](https://github.com/twbs/bootstrap/pull/29083) **Watch out:** `color-level()` was later on dropped in `v5.0.0-alpha3`.
+- <span class="badge text-bg-danger">Breaking</span> Renamed `theme-color-level()` function to `color-level()` and now accepts any color you want instead of only `$theme-color` colors. [See #29083](https://github.com/gotrash/theme/pull/29083) **Watch out:** `color-level()` was later on dropped in `v5.0.0-alpha3`.
 
 - <span class="badge text-bg-danger">Breaking</span> Renamed `$enable-prefers-reduced-motion-media-query` and `$enable-pointer-cursor-for-buttons` to `$enable-reduced-motion` and `$enable-button-pointers` for brevity.
 
@@ -421,13 +421,13 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - <span class="badge text-bg-danger">Breaking</span> Renamed `scale-color()` function to `shift-color()` to avoid collision with Sass's own color scaling function.
 
-- `box-shadow` mixins now allow `null` values and drop `none` from multiple arguments. [See #30394](https://github.com/twbs/bootstrap/pull/30394).
+- `box-shadow` mixins now allow `null` values and drop `none` from multiple arguments. [See #30394](https://github.com/gotrash/theme/pull/30394).
 
 - The `border-radius()` mixin now has a default value.
 
 ### Color system
 
-- The color system which worked with `color-level()` and `$theme-color-interval` was removed in favor of a new color system. All `lighten()` and `darken()` functions in our codebase are replaced by `tint-color()` and `shade-color()`. These functions will mix the color with either white or black instead of changing its lightness by a fixed amount. The `shift-color()` will either tint or shade a color depending on whether its weight parameter is positive or negative. [See #30622](https://github.com/twbs/bootstrap/pull/30622) for more details.
+- The color system which worked with `color-level()` and `$theme-color-interval` was removed in favor of a new color system. All `lighten()` and `darken()` functions in our codebase are replaced by `tint-color()` and `shade-color()`. These functions will mix the color with either white or black instead of changing its lightness by a fixed amount. The `shift-color()` will either tint or shade a color depending on whether its weight parameter is positive or negative. [See #30622](https://github.com/gotrash/theme/pull/30622) for more details.
 
 - Added new tints and shades for every color, providing nine separate colors for each base color, as new Sass variables.
 
@@ -447,11 +447,11 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped several `.order-*` classes that often went unused. We now only provide `.order-1` to `.order-5` out of the box.
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped the `.media` component as it can be easily replicated with utilities. [See #28265](https://github.com/twbs/bootstrap/pull/28265) and the [flex utilities page for an example]({{< docsref "/utilities/flex#media-object" >}}).
+- <span class="badge text-bg-danger">Breaking</span> Dropped the `.media` component as it can be easily replicated with utilities. [See #28265](https://github.com/gotrash/theme/pull/28265) and the [flex utilities page for an example]({{< docsref "/utilities/flex#media-object" >}}).
 
 - <span class="badge text-bg-danger">Breaking</span> `bootstrap-grid.css` now only applies `box-sizing: border-box` to the column instead of resetting the global box-sizing. This way, our grid styles can be used in more places without interference.
 
-- `$enable-grid-classes` no longer disables the generation of container classes anymore. [See #29146.](https://github.com/twbs/bootstrap/pull/29146)
+- `$enable-grid-classes` no longer disables the generation of container classes anymore. [See #29146.](https://github.com/gotrash/theme/pull/29146)
 
 - Updated the `make-col` mixin to default to equal columns without a specified size.
 
@@ -475,17 +475,17 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - Split table cell padding variables into `-y` and `-x`.
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.pre-scrollable` class. [See #29135](https://github.com/twbs/bootstrap/pull/29135)
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.pre-scrollable` class. [See #29135](https://github.com/gotrash/theme/pull/29135)
 
-- <span class="badge text-bg-danger">Breaking</span> `.text-*` utilities do not add hover and focus states to links anymore. `.link-*` helper classes can be used instead. [See #29267](https://github.com/twbs/bootstrap/pull/29267)
+- <span class="badge text-bg-danger">Breaking</span> `.text-*` utilities do not add hover and focus states to links anymore. `.link-*` helper classes can be used instead. [See #29267](https://github.com/gotrash/theme/pull/29267)
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.text-justify` class. [See #29793](https://github.com/twbs/bootstrap/pull/29793)
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.text-justify` class. [See #29793](https://github.com/gotrash/theme/pull/29793)
 
 - <span class="badge text-bg-danger">Breaking</span> ~~`<hr>` elements now use `height` instead of `border` to better support the `size` attribute. This also enables use of padding utilities to create thicker dividers (e.g., `<hr class="py-1">`).~~
 
 - Reset default horizontal `padding-left` on `<ul>` and `<ol>` elements from browser default `40px` to `2rem`.
 
-- Added `$enable-smooth-scroll`, which applies `scroll-behavior: smooth` globally—except for users asking for reduced motion through `prefers-reduced-motion` media query. [See #31877](https://github.com/twbs/bootstrap/pull/31877)
+- Added `$enable-smooth-scroll`, which applies `scroll-behavior: smooth` globally—except for users asking for reduced motion through `prefers-reduced-motion` media query. [See #31877](https://github.com/gotrash/theme/pull/31877)
 
 ### RTL
 
@@ -506,7 +506,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped `.input-group-append` and `.input-group-prepend`. You can now just add buttons and `.input-group-text` as direct children of the input groups.
 
-- The longstanding [Missing border radius on input group with validation feedback bug](https://github.com/twbs/bootstrap/issues/25110) is finally fixed by adding an additional `.has-validation` class to input groups with validation.
+- The longstanding [Missing border radius on input group with validation feedback bug](https://github.com/gotrash/theme/issues/25110) is finally fixed by adding an additional `.has-validation` class to input groups with validation.
 
 - <span class="badge text-bg-danger">Breaking</span> **Dropped form-specific layout classes for our grid system.** Use our grid and utilities instead of `.form-group`, `.form-row`, or `.form-inline`.
 
@@ -524,7 +524,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 ### Components
 
-- Unified `padding` values for alerts, breadcrumbs, cards, dropdowns, list groups, modals, popovers, and tooltips to be based on our `$spacer` variable. [See #30564](https://github.com/twbs/bootstrap/pull/30564).
+- Unified `padding` values for alerts, breadcrumbs, cards, dropdowns, list groups, modals, popovers, and tooltips to be based on our `$spacer` variable. [See #30564](https://github.com/gotrash/theme/pull/30564).
 
 #### Accordion
 
@@ -554,7 +554,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 #### Buttons
 
-- <span class="badge text-bg-danger">Breaking</span> **[Toggle buttons]({{< docsref "/forms/checks-radios#toggle-buttons" >}}), with checkboxes or radios, no longer require JavaScript and have new markup.** We no longer require a wrapping element, add `.btn-check` to the `<input>`, and pair it with any `.btn` classes on the `<label>`. [See #30650](https://github.com/twbs/bootstrap/pull/30650). _The docs for this has moved from our Buttons page to the new Forms section._
+- <span class="badge text-bg-danger">Breaking</span> **[Toggle buttons]({{< docsref "/forms/checks-radios#toggle-buttons" >}}), with checkboxes or radios, no longer require JavaScript and have new markup.** We no longer require a wrapping element, add `.btn-check` to the `<input>`, and pair it with any `.btn` classes on the `<label>`. [See #30650](https://github.com/gotrash/theme/pull/30650). _The docs for this has moved from our Buttons page to the new Forms section._
 
 - <span class="badge text-bg-danger">Breaking</span> **Dropped `.btn-block` for utilities.** Instead of using `.btn-block` on the `.btn`, wrap your buttons with `.d-grid` and a `.gap-*` utility to space them as needed. Switch to responsive classes for even more control over them. [Read the docs for some examples.]({{< docsref "/components/buttons#block-buttons" >}})
 
@@ -568,7 +568,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped `.card-deck` in favor of our grid. Wrap your cards in column classes and add a parent `.row-cols-*` container to recreate card decks (but with more control over responsive alignment).
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.card-columns` in favor of Masonry. [See #28922](https://github.com/twbs/bootstrap/pull/28922).
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.card-columns` in favor of Masonry. [See #28922](https://github.com/gotrash/theme/pull/28922).
 
 - <span class="badge text-bg-danger">Breaking</span> Replaced the `.card` based accordion with a [new Accordion component]({{< docsref "/components/accordion" >}}).
 
@@ -576,7 +576,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - Added new [`.carousel-dark` variant]({{< docsref "/components/carousel#dark-variant" >}}) for dark text, controls, and indicators (great for lighter backgrounds).
 
-- Replaced chevron icons for carousel controls with new SVGs from [Bootstrap Icons]({{< param "icons" >}}).
+- Replaced chevron icons for carousel controls with new SVGs from [GoTrash Theme Icons]({{< param "icons" >}}).
 
 #### Close button
 
@@ -643,7 +643,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 #### Spinners
 
-- Spinners now honor `prefers-reduced-motion: reduce` by slowing down animations. [See #31882](https://github.com/twbs/bootstrap/pull/31882).
+- Spinners now honor `prefers-reduced-motion: reduce` by slowing down animations. [See #31882](https://github.com/gotrash/theme/pull/31882).
 
 - Improved spinner vertical alignment.
 
@@ -695,7 +695,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - Added `.d-grid` to display utilities and new `gap` utilities (`.gap`) for CSS Grid and flexbox layouts.
 
-- <span class="badge text-bg-danger">Breaking</span> Removed `.rounded-sm` and `rounded-lg`, and introduced a new scale of classes, `.rounded-0` to `.rounded-3`. [See #31687](https://github.com/twbs/bootstrap/pull/31687).
+- <span class="badge text-bg-danger">Breaking</span> Removed `.rounded-sm` and `rounded-lg`, and introduced a new scale of classes, `.rounded-0` to `.rounded-3`. [See #31687](https://github.com/gotrash/theme/pull/31687).
 
 - Added new `line-height` utilities: `.lh-1`, `.lh-sm`, `.lh-base` and `.lh-lg`. See [here]({{< docsref "/utilities/text#line-height" >}}).
 
@@ -722,7 +722,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - **Dropped jQuery dependency** and rewrote plugins to be in regular JavaScript.
 
-- <span class="badge text-bg-danger">Breaking</span> Data attributes for all JavaScript plugins are now namespaced to help distinguish Bootstrap functionality from third parties and your own code. For example, we use `data-bs-toggle` instead of `data-toggle`.
+- <span class="badge text-bg-danger">Breaking</span> Data attributes for all JavaScript plugins are now namespaced to help distinguish GoTrash Theme functionality from third parties and your own code. For example, we use `data-bs-toggle` instead of `data-toggle`.
 
 - **All plugins can now accept a CSS selector as the first argument.** You can either pass a DOM element or any valid CSS selector to create a new instance of the plugin:
 
@@ -731,7 +731,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
   const dropdown = new bootstrap.Dropdown('[data-bs-toggle="dropdown"]')
   ```
 
-- `popperConfig` can be passed as a function that accepts the Bootstrap's default Popper config as an argument, so that you can merge this default configuration in your way. **Applies to dropdowns, popovers, and tooltips.**
+- `popperConfig` can be passed as a function that accepts the GoTrash Theme's default Popper config as an argument, so that you can merge this default configuration in your way. **Applies to dropdowns, popovers, and tooltips.**
 
 - The default value for the `fallbackPlacements` is changed to `['top', 'right', 'bottom', 'left']` for better placement of Popper elements. **Applies to dropdowns, popovers, and tooltips.**
 

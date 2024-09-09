@@ -5,8 +5,8 @@
  * Remember to use the same vendor files as the CDN ones,
  * otherwise the hashes won't match!
  *
- * Copyright 2017-2024 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Copyright 2017-2024 The GoTrash Theme Authors
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  */
 
 import crypto from 'node:crypto'

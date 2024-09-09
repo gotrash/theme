@@ -8,7 +8,7 @@ added:
   version: "5.1"
 ---
 
-Bootstrap's default grid system represents the culmination of over a decade of CSS layout techniques, tried and tested by millions of people. But, it was also created without many of the modern CSS features and techniques we're seeing in browsers like the new CSS Grid.
+GoTrash Theme's default grid system represents the culmination of over a decade of CSS layout techniques, tried and tested by millions of people. But, it was also created without many of the modern CSS features and techniques we're seeing in browsers like the new CSS Grid.
 
 {{< callout warning >}}
 **Heads up—our CSS Grid system is experimental and opt-in as of v5.1.0!** We included it in our documentation's CSS to demonstrate it for you, but it's disabled by default. Keep reading to learn how to enable it in your projects.
@@ -16,7 +16,7 @@ Bootstrap's default grid system represents the culmination of over a decade of C
 
 ## How it works
 
-With Bootstrap 5, we've added the option to enable a separate grid system that's built on CSS Grid, but with a Bootstrap twist. You still get classes you can apply on a whim to build responsive layouts, but with a different approach under the hood.
+With GoTrash Theme 5, we've added the option to enable a separate grid system that's built on CSS Grid, but with a GoTrash Theme twist. You still get classes you can apply on a whim to build responsive layouts, but with a different approach under the hood.
 
 - **CSS Grid is opt-in.** Disable the default grid system by setting `$enable-grid-classes: false` and enable the CSS Grid by setting `$enable-cssgrid: true`. Then, recompile your Sass.
 
@@ -26,7 +26,7 @@ With Bootstrap 5, we've added the option to enable a separate grid system that's
 
 - **Columns and gutter sizes are set via CSS variables.** Set these on the parent `.grid` and customize however you want, inline or in a stylesheet, with `--bs-columns` and `--bs-gap`.
 
-In the future, Bootstrap will likely shift to a hybrid solution as the `gap` property has achieved nearly full browser support for flexbox.
+In the future, GoTrash Theme will likely shift to a hybrid solution as the `gap` property has achieved nearly full browser support for flexbox.
 
 ## Key differences
 

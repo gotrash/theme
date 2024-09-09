@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap collapse.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * GoTrash Theme collapse.js
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

@@ -2,8 +2,8 @@
 
 /*!
  * Script to update version number references in the project.
- * Copyright 2017-2024 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Copyright 2017-2024 The GoTrash Themeheme Authors
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  */
 
 import { execFile } from 'node:child_process'

@@ -423,7 +423,7 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
 
 ### Events
 
-Bootstrap's carousel class exposes two events for hooking into carousel functionality. Both events have the following additional properties:
+GoTrash Theme's carousel class exposes two events for hooking into carousel functionality. Both events have the following additional properties:
 
 - `direction`: The direction in which the carousel is sliding (either `"left"` or `"right"`).
 - `relatedTarget`: The DOM element that is being slid into place as the active item.

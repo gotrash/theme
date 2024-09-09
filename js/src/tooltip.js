@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap tooltip.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * GoTrash Theme tooltip.js
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -105,7 +105,7 @@ const DefaultType = {
 class Tooltip extends BaseComponent {
   constructor(element, config) {
     if (typeof Popper === 'undefined') {
-      throw new TypeError('Bootstrap\'s tooltips require Popper (https://popper.js.org/docs/v2/)')
+      throw new TypeError('GoTrash Theme\'s tooltips require Popper (https://popper.js.org/docs/v2/)')
     }
 
     super(element, config)

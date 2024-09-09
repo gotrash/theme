@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap alert.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * GoTrash Theme alert.js
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Bootstrap util/template-factory.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * GoTrash Theme util/template-factory.js
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

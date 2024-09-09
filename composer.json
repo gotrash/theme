@@ -23,6 +23,6 @@
   },
   "license": "MIT",
   "replace": {
-    "twitter/bootstrap": "self.version"
+    "gotrash/theme": "self.version"
   }
 }

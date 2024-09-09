@@ -14,30 +14,26 @@
     "framework",
     "web"
   ],
-  "homepage": "https://getbootstrap.com/",
-  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
+  "homepage": "https://gotrash.co.uk/",
+  "author": "The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors) and Alex Scott",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/gotrash/theme.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/gotrash/theme/issues"
   },
   "funding": [
     {
       "type": "github",
-      "url": "https://github.com/sponsors/twbs"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/bootstrap"
+      "url": "https://github.com/sponsors/gotrash"
     }
   ],
-  "main": "dist/js/bootstrap.js",
-  "module": "dist/js/bootstrap.esm.js",
-  "sass": "scss/bootstrap.scss",
-  "style": "dist/css/bootstrap.css",
+  "main": "dist/js/gotrash.js",
+  "module": "dist/js/gotrash.esm.js",
+  "sass": "scss/gotrash.scss",
+  "style": "dist/css/gotrash.css",
   "scripts": {
     "start": "npm-run-all --parallel watch docs-serve",
     "bundlewatch": "bundlewatch --config .bundlewatch.config.json",
@@ -63,9 +59,9 @@
     "js-compile-plugins": "node build/build-plugins.mjs",
     "js-lint": "eslint --cache --cache-location .cache/.eslintcache --report-unused-disable-directives --ext .html,.js,.mjs,.md .",
     "js-minify": "npm-run-all --aggregate-output --parallel js-minify-*",
-    "js-minify-standalone": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/bootstrap.js.map,includeSources,url=bootstrap.min.js.map\" --output dist/js/bootstrap.min.js dist/js/bootstrap.js",
-    "js-minify-standalone-esm": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/bootstrap.esm.js.map,includeSources,url=bootstrap.esm.min.js.map\" --output dist/js/bootstrap.esm.min.js dist/js/bootstrap.esm.js",
-    "js-minify-bundle": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/bootstrap.bundle.js.map,includeSources,url=bootstrap.bundle.min.js.map\" --output dist/js/bootstrap.bundle.min.js dist/js/bootstrap.bundle.js",
+    "js-minify-standalone": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/gotrash.js.map,includeSources,url=gotrash.min.js.map\" --output dist/js/gotrash.min.js dist/js/gotrash.js",
+    "js-minify-standalone-esm": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/gotrash.esm.js.map,includeSources,url=gotrash.esm.min.js.map\" --output dist/js/gotrash.esm.min.js dist/js/gotrash.esm.js",
+    "js-minify-bundle": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/gotrash.bundle.js.map,includeSources,url=gotrash.bundle.min.js.map\" --output dist/js/gotrash.bundle.min.js dist/js/gotrash.bundle.js",
     "js-test": "npm-run-all --aggregate-output --parallel js-test-karma js-test-jquery js-test-integration-*",
     "js-debug": "cross-env DEBUG=true npm run js-test-karma",
     "js-test-karma": "karma start js/tests/karma.conf.js",
@@ -86,7 +82,7 @@
     "release": "npm-run-all dist release-sri docs-build release-zip*",
     "release-sri": "node build/generate-sri.mjs",
     "release-version": "node build/change-version.mjs",
-    "release-zip": "cross-env-shell \"rm -rf bootstrap-$npm_package_version-dist bootstrap-$npm_package_version-dist.zip && cp -r dist/ bootstrap-$npm_package_version-dist && zip -qr9 bootstrap-$npm_package_version-dist.zip bootstrap-$npm_package_version-dist && rm -rf bootstrap-$npm_package_version-dist\"",
+    "release-zip": "cross-env-shell \"rm -rf gotrash-$npm_package_version-dist gotrash-$npm_package_version-dist.zip && cp -r dist/ gotrash-$npm_package_version-dist && zip -qr9 gotrash-$npm_package_version-dist.zip gotrash-$npm_package_version-dist && rm -rf gotrash-$npm_package_version-dist\"",
     "release-zip-examples": "node build/zip-examples.mjs",
     "dist": "npm-run-all --aggregate-output --parallel css js",
     "test": "npm-run-all lint dist js-test docs-build docs-lint",
@@ -168,12 +164,12 @@
   },
   "jspm": {
     "registry": "npm",
-    "main": "js/bootstrap",
+    "main": "js/gotrash",
     "directories": {
       "lib": "dist"
     },
     "shim": {
-      "js/bootstrap": {
+      "js/gotrash": {
         "deps": [
           "@popperjs/core"
         ]

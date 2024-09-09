@@ -1,12 +1,12 @@
 ---
 layout: docs
 title: Contents
-description: Discover what's included in Bootstrap, including our compiled and source code flavors.
+description: Discover what's included in GoTrash Theme, including our compiled and source code flavors.
 group: getting-started
 toc: true
 ---
 
-## Compiled Bootstrap
+## Compiled GoTrash Theme
 
 Once downloaded, unzip the compressed folder and you'll see something like this:
 
@@ -62,11 +62,11 @@ bootstrap/
     └── bootstrap.min.js.map
 ```
 
-This is the most basic form of Bootstrap: compiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [Source maps](https://web.dev/articles/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/docs/v2/).
+This is the most basic form of GoTrash Theme: compiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [Source maps](https://web.dev/articles/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/docs/v2/).
 
 ### CSS files
 
-Bootstrap includes a handful of options for including some or all of our compiled CSS.
+GoTrash Theme includes a handful of options for including some or all of our compiled CSS.
 
 {{< bs-table "table" >}}
 | CSS files | Layout | Content | Components | Utilities |
@@ -88,9 +88,9 @@ Similarly, we have options for including some or all of our compiled JavaScript.
 | `bootstrap.js`<br> `bootstrap.min.js`<br> | – |
 {{< /bs-table >}}
 
-## Bootstrap source code
+## GoTrash Theme source code
 
-The Bootstrap source code download includes the compiled CSS and JavaScript assets, along with source Sass, JavaScript, and documentation. More specifically, it includes the following and more:
+The GoTrash Theme source code download includes the compiled CSS and JavaScript assets, along with source Sass, JavaScript, and documentation. More specifically, it includes the following and more:
 
 ```text
 bootstrap/
@@ -106,6 +106,6 @@ bootstrap/
 └── scss/
 ```
 
-The `scss/` and `js/` are the source code for our CSS and JavaScript. The `dist/` folder includes everything listed in the compiled download section above. The `site/content/docs/` folder includes the source code for our hosted documentation, including our live examples of Bootstrap usage.
+The `scss/` and `js/` are the source code for our CSS and JavaScript. The `dist/` folder includes everything listed in the compiled download section above. The `site/content/docs/` folder includes the source code for our hosted documentation, including our live examples of GoTrash Theme usage.
 
 Beyond that, any other included file provides support for packages, license information, and development.

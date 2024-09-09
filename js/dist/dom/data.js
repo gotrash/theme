@@ -1,7 +1,7 @@
 /*!
-  * Bootstrap data.js v5.3.3 (https://getbootstrap.com/)
-  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  * GoTrash Theme data.js v5.3.3 (https://getbootstrap.com/)
+  * Copyright 2011-2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors)
+  * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -11,8 +11,8 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap dom/data.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+   * GoTrash Theme dom/data.js
+   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -32,7 +32,7 @@
       // can be removed later when multiple key/instances are fine to be used
       if (!instanceMap.has(key) && instanceMap.size !== 0) {
         // eslint-disable-next-line no-console
-        console.error(`Bootstrap doesn't allow more than one instance per element. Bound instance: ${Array.from(instanceMap.keys())[0]}.`);
+        console.error(`GoTrash Theme doesn't allow more than one instance per element. Bound instance: ${Array.from(instanceMap.keys())[0]}.`);
         return;
       }
       instanceMap.set(key, instance);

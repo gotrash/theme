@@ -4,12 +4,12 @@
     <id>gotrash.theme</id>
     <!-- pulled from package.json -->
     <version>5</version>
-    <title>Bootstrap CSS</title>
-    <authors>The Bootstrap Authors</authors>
+    <title>GoTrash Theme CSS</title>
+    <authors>The GoTrash Theme Authors</authors>
     <owners>gotrash</owners>
     <description>The most popular front-end framework for developing responsive, mobile first projects on the web.</description>
     <releaseNotes>https://blog.getbootstrap.com/</releaseNotes>
-    <summary>Bootstrap framework in CSS. Includes JavaScript.</summary>
+    <summary>GoTrash Theme framework in CSS. Includes JavaScript.</summary>
     <language>en-us</language>
     <projectUrl>https://getbootstrap.com/</projectUrl>
     <repository type="git" url="https://github.com/gotrash/theme.git" branch="main" />

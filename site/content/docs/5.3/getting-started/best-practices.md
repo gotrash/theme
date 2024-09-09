@@ -1,11 +1,11 @@
 ---
 layout: docs
 title: Best practices
-description: Learn about some of the best practices we've gathered from years of working on and using Bootstrap.
+description: Learn about some of the best practices we've gathered from years of working on and using GoTrash Theme.
 group: getting-started
 ---
 
-We've designed and developed Bootstrap to work in a number of environments. Here are some of the best practices we've gathered from years of working on and using it ourselves.
+We've designed and developed GoTrash Theme to work in a number of environments. Here are some of the best practices we've gathered from years of working on and using it ourselves.
 
 {{< callout info >}}
 **Heads up!** This copy is a work in progress.
@@ -17,4 +17,4 @@ We've designed and developed Bootstrap to work in a number of environments. Here
 - Working with Sass files
 - Building new CSS components
 - Working with flexbox
-- Ask in [our GitHub Discussions](https://github.com/twbs/bootstrap/discussions)
+- Ask in [our GitHub Discussions](https://github.com/gotrash/theme/discussions)

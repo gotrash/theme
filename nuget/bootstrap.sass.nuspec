@@ -4,15 +4,15 @@
     <id>gotrash.theme.sass</id>
     <!-- pulled from package.json -->
     <version>5</version>
-    <title>Bootstrap Sass</title>
-    <authors>The Bootstrap Authors</authors>
+    <title>GoTrash Theme Sass</title>
+    <authors>The GoTrash Theme Authors</authors>
     <owners>gotrash</owners>
     <description>The most popular front-end framework for developing responsive, mobile first projects on the web.</description>
     <releaseNotes>https://blog.getbootstrap.com/</releaseNotes>
-    <summary>Bootstrap framework in Sass. Includes JavaScript</summary>
+    <summary>GoTrash Theme framework in Sass. Includes JavaScript</summary>
     <language>en-us</language>
     <projectUrl>https://getbootstrap.com/</projectUrl>
-    <repository type="git" url="https://github.com/twbs/bootstrap.git" branch="main" />
+    <repository type="git" url="https://github.com/gotrash/theme.git" branch="main" />
     <icon>bootstrap.png</icon>
     <license type="expression">MIT</license>
     <copyright>Copyright 2011-2024</copyright>

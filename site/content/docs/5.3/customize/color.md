@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Color
-description: Bootstrap is supported by an extensive color system that themes our styles and components. This enables more comprehensive customization and extension for any project.
+description: GoTrash Theme is supported by an extensive color system that themes our styles and components. This enables more comprehensive customization and extension for any project.
 group: customize
 toc: true
 ---
@@ -10,7 +10,7 @@ toc: true
 
 {{< added-in "5.3.0" >}}
 
-Bootstrap's color palette has continued to expand and become more nuanced in v5.3.0. We've added new variables for `secondary` and `tertiary` text and background colors, plus `{color}-bg-subtle`, `{color}-border-subtle`, and `{color}-text-emphasis` for our theme colors. These new colors are available through Sass and CSS variables (but not our color maps or utility classes) with the express goal of making it easier to customize across multiple colors modes like light and dark. These new variables are globally set on `:root` and are adapted for our new dark color mode while our original theme colors remain unchanged.
+GoTrash Theme's color palette has continued to expand and become more nuanced in v5.3.0. We've added new variables for `secondary` and `tertiary` text and background colors, plus `{color}-bg-subtle`, `{color}-border-subtle`, and `{color}-text-emphasis` for our theme colors. These new colors are available through Sass and CSS variables (but not our color maps or utility classes) with the express goal of making it easier to customize across multiple colors modes like light and dark. These new variables are globally set on `:root` and are adapted for our new dark color mode while our original theme colors remain unchanged.
 
 Colors ending in `-rgb` provide the `red, green, blue` values for use in `rgb()` and `rgba()` color modes. For example, `rgba(var(--bs-secondary-bg-rgb), .5)`.
 
@@ -368,7 +368,7 @@ These new colors are accessible via CSS variables and utility classes—like `--
 
 ### Theme colors
 
-We use a subset of all colors to create a smaller color palette for generating color schemes, also available as Sass variables and a Sass map in Bootstrap's `scss/_variables.scss` file.
+We use a subset of all colors to create a smaller color palette for generating color schemes, also available as Sass variables and a Sass map in GoTrash Theme's `scss/_variables.scss` file.
 
 <div class="row">
   {{< theme-colors.inline >}}
@@ -388,7 +388,7 @@ Check out [our Sass maps and loops docs]({{< docsref "/customize/sass#maps-and-l
 
 ### All colors
 
-All Bootstrap colors are available as Sass variables and a Sass map in `scss/_variables.scss` file. To avoid increased file sizes, we don't create text or background color classes for each of these variables. Instead, we choose a subset of these colors for a [theme palette](#theme-colors).
+All GoTrash Theme colors are available as Sass variables and a Sass map in `scss/_variables.scss` file. To avoid increased file sizes, we don't create text or background color classes for each of these variables. Instead, we choose a subset of these colors for a [theme palette](#theme-colors).
 
 Be sure to monitor contrast ratios as you customize colors. As shown below, we've added three contrast ratios to each of the main colors—one for the swatch's current colors, one for against white, and one for against black.
 
@@ -441,13 +441,13 @@ Our `tint-color()` and `shade-color()` functions use `mix()` alongside our `$the
 
 ## Color Sass maps
 
-Bootstrap's source Sass files include three maps to help you quickly and easily loop over a list of colors and their hex values.
+GoTrash Theme's source Sass files include three maps to help you quickly and easily loop over a list of colors and their hex values.
 
 - `$colors` lists all our available base (`500`) colors
 - `$theme-colors` lists all semantically named theme colors (shown below)
 - `$grays` lists all tints and shades of gray
 
-Within `scss/_variables.scss`, you'll find Bootstrap's color variables and Sass map. Here's an example of the `$colors` Sass map:
+Within `scss/_variables.scss`, you'll find GoTrash Theme's color variables and Sass map. Here's an example of the `$colors` Sass map:
 
 {{< scss-docs name="colors-map" file="scss/_variables.scss" >}}
 
@@ -471,7 +471,7 @@ Here's how you can use these in your Sass:
 
 {{< added-in "5.1.0" >}}
 
-Bootstrap doesn't include `color` and `background-color` utilities for every color variable, but you can generate these yourself with our [utility API]({{< docsref "/utilities/api" >}}) and our extended Sass maps added in v5.1.0.
+GoTrash Theme doesn't include `color` and `background-color` utilities for every color variable, but you can generate these yourself with our [utility API]({{< docsref "/utilities/api" >}}) and our extended Sass maps added in v5.1.0.
 
 1. To start, make sure you've imported our functions, variables, mixins, and utilities.
 2. Use our `map-merge-multiple()` function to quickly merge multiple Sass maps together in a new map.

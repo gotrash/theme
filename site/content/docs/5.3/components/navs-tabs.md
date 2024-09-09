@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Navs and tabs
-description: Documentation and examples for how to use Bootstrap's included navigation components.
+description: Documentation and examples for how to use GoTrash Theme's included navigation components.
 group: components
 aliases: "/docs/5.3/components/navs/"
 toc: true
@@ -9,7 +9,7 @@ toc: true
 
 ## Base nav
 
-Navigation available in Bootstrap share general markup and styles, from the base `.nav` class to the active and disabled states. Swap modifier classes to switch between each style.
+Navigation available in GoTrash Theme share general markup and styles, from the base `.nav` class to the active and disabled states. Swap modifier classes to switch between each style.
 
 The base `.nav` component is built with flexbox and provide a strong foundation for building all types of navigation components. It includes some style overrides (for working with lists), some link padding for larger hit areas, and basic disabled styling.
 
@@ -331,7 +331,7 @@ Add dropdown menus with a little extra HTML and the [dropdowns JavaScript plugin
 
 {{< added-in "5.2.0" >}}
 
-As part of Bootstrap's evolving CSS variables approach, navs now use local CSS variables on `.nav`, `.nav-tabs`, and `.nav-pills` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
+As part of GoTrash Theme's evolving CSS variables approach, navs now use local CSS variables on `.nav`, `.nav-tabs`, and `.nav-pills` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
 
 On the `.nav` base class:
 

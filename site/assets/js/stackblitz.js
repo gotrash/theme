@@ -5,8 +5,8 @@
 // ++++++++++++++++++++++++++++++++++++++++++
 
 /*!
- * JavaScript for Bootstrap's docs (https://getbootstrap.com/)
- * Copyright 2024 The Bootstrap Authors
+ * JavaScript for GoTrash Theme's docs (https://getbootstrap.com/)
+ * Copyright 2024 The GoTrash Theme Authors
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  * For details, see https://creativecommons.org/licenses/by/3.0/.
  */
@@ -28,11 +28,11 @@ document.querySelectorAll('.btn-edit').forEach(btn => {
     // Get extra classes for this example
     const classes = Array.from(exampleEl.classList).join(' ')
 
-    openBootstrapSnippet(htmlSnippet, jsSnippet, classes)
+    openGoTrash ThemeSnippet(htmlSnippet, jsSnippet, classes)
   })
 })
 
-const openBootstrapSnippet = (htmlSnippet, jsSnippet, classes) => {
+const openGoTrash ThemeSnippet = (htmlSnippet, jsSnippet, classes) => {
   const indexHtml = `<!doctype html>
 <html lang="en">
   <head>
@@ -40,7 +40,7 @@ const openBootstrapSnippet = (htmlSnippet, jsSnippet, classes) => {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="${cssCdn}" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/${docsVersion}/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>GoTrash Theme Example</title>
     <${'script'} defer src="${jsBundleCdn}"></${'script'}>
   </head>
   <body class="p-3 m-0 border-0 ${classes}">
@@ -56,7 +56,7 @@ ${htmlSnippet.trimStart().replace(/^/gm, '    ').replace(/^ {4}$/gm, '').trimEnd
       'index.html': indexHtml,
       ...(jsSnippet && { 'index.js': jsSnippetFile })
     },
-    title: 'Bootstrap Example',
+    title: 'GoTrash Theme Example',
     description: `Official example from ${window.location.href}`,
     template: jsSnippet ? 'javascript' : 'html',
     tags: ['bootstrap']

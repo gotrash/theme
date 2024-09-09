@@ -2,8 +2,8 @@
 
 /*!
  * Script to build our plugins to use them separately.
- * Copyright 2020-2024 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Copyright 2020-2024 The GoTrash Theme Authors
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  */
 
 import path from 'node:path'

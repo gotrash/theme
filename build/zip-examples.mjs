@@ -3,8 +3,8 @@
 /*!
  * Script to create the built examples zip archive;
  * requires the `zip` command to be present!
- * Copyright 2020-2024 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Copyright 2020-2024 The GoTrash Theme Authors
+ * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  */
 
 import fs from 'node:fs/promises'

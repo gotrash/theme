@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: Get started with Bootstrap
-description: Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+title: Get started with GoTrash Theme
+description: GoTrash Theme is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
 group: getting-started
 aliases:
   - "/docs/5.3/getting-started/"
@@ -12,7 +12,7 @@ toc: true
 
 ## Quick start
 
-Get started by including Bootstrap's production-ready CSS and JavaScript via CDN without the need for any build steps. See it in practice with this [Bootstrap CodePen demo](https://codepen.io/team/bootstrap/pen/qBamdLj).
+Get started by including GoTrash Theme's production-ready CSS and JavaScript via CDN without the need for any build steps. See it in practice with this [GoTrash Theme CodePen demo](https://codepen.io/team/bootstrap/pen/qBamdLj).
 
 <br>
 
@@ -24,7 +24,7 @@ Get started by including Bootstrap's production-ready CSS and JavaScript via CDN
      <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Bootstrap demo</title>
+       <title>GoTrash Theme demo</title>
      </head>
      <body>
        <h1>Hello, world!</h1>
@@ -32,7 +32,7 @@ Get started by including Bootstrap's production-ready CSS and JavaScript via CDN
    </html>
    ```
 
-2. **Include Bootstrap's CSS and JS.** Place the `<link>` tag in the `<head>` for our CSS, and the `<script>` tag for our JavaScript bundle (including Popper for positioning dropdowns, popovers, and tooltips) before the closing `</body>`. Learn more about our [CDN links](#cdn-links).
+2. **Include GoTrash Theme's CSS and JS.** Place the `<link>` tag in the `<head>` for our CSS, and the `<script>` tag for our JavaScript bundle (including Popper for positioning dropdowns, popovers, and tooltips) before the closing `</body>`. Learn more about our [CDN links](#cdn-links).
 
    ```html
    <!doctype html>
@@ -40,7 +40,7 @@ Get started by including Bootstrap's production-ready CSS and JavaScript via CDN
      <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Bootstrap demo</title>
+       <title>GoTrash Theme demo</title>
        <link href="{{< param "cdn.css" >}}" rel="stylesheet" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
      </head>
      <body>
@@ -57,7 +57,7 @@ Get started by including Bootstrap's production-ready CSS and JavaScript via CDN
    <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
    ```
 
-3. **Hello, world!** Open the page in your browser of choice to see your Bootstrapped page. Now you can start building with Bootstrap by creating your own [layout]({{< docsref "/layout/grid" >}}), adding dozens of [components]({{< docsref "/components/buttons" >}}), and utilizing [our official examples]({{< docsref "/examples" >}}).
+3. **Hello, world!** Open the page in your browser of choice to see your GoTrash Themeped page. Now you can start building with GoTrash Theme by creating your own [layout]({{< docsref "/layout/grid" >}}), adding dozens of [components]({{< docsref "/components/buttons" >}}), and utilizing [our official examples]({{< docsref "/examples" >}}).
 
 ## CDN links
 
@@ -74,10 +74,10 @@ You can also use the CDN to fetch any of our [additional builds listed in the Co
 
 ## Next steps
 
-- Read a bit more about some [important global environment settings](#important-globals) that Bootstrap utilizes.
-- Read about what's included in Bootstrap in our [contents section]({{< docsref "/getting-started/contents/" >}}) and the list of [components that require JavaScript](#js-components) below.
-- Need a little more power? Consider building with Bootstrap by [including the source files via package manager]({{< docsref "/getting-started/download#package-managers" >}}).
-- Looking to use Bootstrap as a module with `<script type="module">`? Please refer to our [using Bootstrap as a module]({{< docsref "/getting-started/javascript#using-bootstrap-as-a-module" >}}) section.
+- Read a bit more about some [important global environment settings](#important-globals) that GoTrash Theme utilizes.
+- Read about what's included in GoTrash Theme in our [contents section]({{< docsref "/getting-started/contents/" >}}) and the list of [components that require JavaScript](#js-components) below.
+- Need a little more power? Consider building with GoTrash Theme by [including the source files via package manager]({{< docsref "/getting-started/download#package-managers" >}}).
+- Looking to use GoTrash Theme as a module with `<script type="module">`? Please refer to our [using GoTrash Theme as a module]({{< docsref "/getting-started/javascript#using-bootstrap-as-a-module" >}}) section.
 
 ## JS components
 
@@ -99,11 +99,11 @@ Curious which components explicitly require our JavaScript and Popper? If you're
 
 ## Important globals
 
-Bootstrap employs a handful of important global styles and settings, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
+GoTrash Theme employs a handful of important global styles and settings, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
 
 ### HTML5 doctype
 
-Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some funky and incomplete styling.
+GoTrash Theme requires the use of the HTML5 doctype. Without it, you'll see some funky and incomplete styling.
 
 ```html
 <!doctype html>
@@ -114,7 +114,7 @@ Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some fun
 
 ### Viewport meta
 
-Bootstrap is developed *mobile first*, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your `<head>`.
+GoTrash Theme is developed *mobile first*, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your `<head>`.
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -144,13 +144,13 @@ For improved cross-browser rendering, we use [Reboot]({{< docsref "/content/rebo
 
 ## Community
 
-Stay up-to-date on the development of Bootstrap and reach out to the community with these helpful resources.
+Stay up-to-date on the development of GoTrash Theme and reach out to the community with these helpful resources.
 
-- Read and subscribe to [The Official Bootstrap Blog]({{< param blog >}}).
-- Ask questions and explore [our GitHub Discussions](https://github.com/twbs/bootstrap/discussions).
-- Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [Bootstrap subreddit](https://www.reddit.com/r/bootstrap/).
-- Chat with fellow Bootstrappers in IRC. On the `irc.libera.chat` server, in the `#bootstrap` channel.
+- Read and subscribe to [The Official GoTrash Theme Blog]({{< param blog >}}).
+- Ask questions and explore [our GitHub Discussions](https://github.com/gotrash/theme/discussions).
+- Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [GoTrash Theme subreddit](https://www.reddit.com/r/bootstrap/).
+- Chat with fellow GoTrash Themepers in IRC. On the `irc.libera.chat` server, in the `#bootstrap` channel.
 - Implementation help may be found at Stack Overflow (tagged [`bootstrap-5`](https://stackoverflow.com/questions/tagged/bootstrap-5)).
-- Developers should use the keyword `bootstrap` on packages that modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/search?q=keywords:bootstrap) or similar delivery mechanisms for maximum discoverability.
+- Developers should use the keyword `bootstrap` on packages that modify or add to the functionality of GoTrash Theme when distributing through [npm](https://www.npmjs.com/search?q=keywords:bootstrap) or similar delivery mechanisms for maximum discoverability.
 
 You can also follow [@getbootstrap on Twitter](https://twitter.com/{{< param twitter >}}) for the latest gossip and awesome music videos.

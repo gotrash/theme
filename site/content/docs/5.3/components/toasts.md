@@ -31,7 +31,7 @@ Toasts are as flexible as you need and have very little required markup. At a mi
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-    <strong class="me-auto">Bootstrap</strong>
+    <strong class="me-auto">GoTrash Theme</strong>
     <small>11 mins ago</small>
     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
@@ -53,7 +53,7 @@ Click the button below to show a toast (positioned with our utilities in the low
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-      <strong class="me-auto">Bootstrap</strong>
+      <strong class="me-auto">GoTrash Theme</strong>
       <small>11 mins ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
@@ -74,7 +74,7 @@ Click the button below to show a toast (positioned with our utilities in the low
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <img src="..." class="rounded me-2" alt="...">
-      <strong class="me-auto">Bootstrap</strong>
+      <strong class="me-auto">GoTrash Theme</strong>
       <small>11 mins ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
@@ -97,7 +97,7 @@ Toasts are slightly translucent to blend in with what's below them.
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-    <strong class="me-auto">Bootstrap</strong>
+    <strong class="me-auto">GoTrash Theme</strong>
     <small class="text-body-secondary">11 mins ago</small>
     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
@@ -116,7 +116,7 @@ You can stack toasts by wrapping them in a toast container, which will verticall
   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-      <strong class="me-auto">Bootstrap</strong>
+      <strong class="me-auto">GoTrash Theme</strong>
       <small class="text-body-secondary">just now</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
@@ -128,7 +128,7 @@ You can stack toasts by wrapping them in a toast container, which will verticall
   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-      <strong class="me-auto">Bootstrap</strong>
+      <strong class="me-auto">GoTrash Theme</strong>
       <small class="text-body-secondary">2 seconds ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
@@ -141,7 +141,7 @@ You can stack toasts by wrapping them in a toast container, which will verticall
 
 ### Custom content
 
-Customize your toasts by removing sub-components, tweaking them with [utilities]({{< docsref "/utilities/api" >}}), or by adding your own markup. Here we've created a simpler toast by removing the default `.toast-header`, adding a custom hide icon from [Bootstrap Icons]({{< param icons >}}), and using some [flexbox utilities]({{< docsref "/utilities/flex" >}}) to adjust the layout.
+Customize your toasts by removing sub-components, tweaking them with [utilities]({{< docsref "/utilities/api" >}}), or by adding your own markup. Here we've created a simpler toast by removing the default `.toast-header`, adding a custom hide icon from [GoTrash Theme Icons]({{< param icons >}}), and using some [flexbox utilities]({{< docsref "/utilities/flex" >}}) to adjust the layout.
 
 {{< example >}}
 <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
@@ -210,7 +210,7 @@ Place toasts with custom CSS as you need them. The top right is often used for n
     <div class="toast">
       <div class="toast-header">
         {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-        <strong class="me-auto">Bootstrap</strong>
+        <strong class="me-auto">GoTrash Theme</strong>
         <small>11 mins ago</small>
       </div>
       <div class="toast-body">
@@ -235,7 +235,7 @@ For systems that generate more notifications, consider using a wrapping element 
     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
         {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-        <strong class="me-auto">Bootstrap</strong>
+        <strong class="me-auto">GoTrash Theme</strong>
         <small class="text-body-secondary">just now</small>
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
@@ -247,7 +247,7 @@ For systems that generate more notifications, consider using a wrapping element 
     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
         {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-        <strong class="me-auto">Bootstrap</strong>
+        <strong class="me-auto">GoTrash Theme</strong>
         <small class="text-body-secondary">2 seconds ago</small>
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
@@ -269,7 +269,7 @@ You can also get fancy with flexbox utilities to align toasts horizontally and/o
   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-      <strong class="me-auto">Bootstrap</strong>
+      <strong class="me-auto">GoTrash Theme</strong>
       <small>11 mins ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
@@ -302,7 +302,7 @@ When using `autohide: false`, you must add a close button to allow users to dism
 <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
   <div class="toast-header">
     {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
-    <strong class="me-auto">Bootstrap</strong>
+    <strong class="me-auto">GoTrash Theme</strong>
     <small>11 mins ago</small>
     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
@@ -320,7 +320,7 @@ While technically it's possible to add focusable/actionable controls (such as ad
 
 {{< added-in "5.2.0" >}}
 
-As part of Bootstrap's evolving CSS variables approach, toasts now use local CSS variables on `.toast` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
+As part of GoTrash Theme's evolving CSS variables approach, toasts now use local CSS variables on `.toast` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
 
 {{< scss-docs name="toast-css-vars" file="scss/_toasts.scss" >}}
 
@@ -365,8 +365,8 @@ const toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, o
 | Method | Description |
 | --- | --- |
 | `dispose` | Hides an element's toast. Your toast will remain on the DOM but won't show anymore. |
-| `getInstance` | *Static* method which allows you to get the toast instance associated with a DOM element. <br> For example: `const myToastEl = document.getElementById('myToastEl')` `const myToast = bootstrap.Toast.getInstance(myToastEl)` Returns a Bootstrap toast instance. |
-| `getOrCreateInstance` | *Static* method which allows you to get the toast instance associated with a DOM element, or create a new one, in case it wasn't initialized. <br>`const myToastEl = document.getElementById('myToastEl')` `const myToast = bootstrap.Toast.getOrCreateInstance(myToastEl)` Returns a Bootstrap toast instance. |
+| `getInstance` | *Static* method which allows you to get the toast instance associated with a DOM element. <br> For example: `const myToastEl = document.getElementById('myToastEl')` `const myToast = bootstrap.Toast.getInstance(myToastEl)` Returns a GoTrash Theme toast instance. |
+| `getOrCreateInstance` | *Static* method which allows you to get the toast instance associated with a DOM element, or create a new one, in case it wasn't initialized. <br>`const myToastEl = document.getElementById('myToastEl')` `const myToast = bootstrap.Toast.getOrCreateInstance(myToastEl)` Returns a GoTrash Theme toast instance. |
 | `hide` | Hides an element's toast. **Returns to the caller before the toast has actually been hidden** (i.e. before the `hidden.bs.toast` event occurs). You have to manually call this method if you made `autohide` to `false`. |
 | `isShown` | Returns a boolean according to toast's visibility state. |
 | `show` | Reveals an element's toast. **Returns to the caller before the toast has actually been shown** (i.e. before the `shown.bs.toast` event occurs). You have to manually call this method, instead your toast won't show. |
