@@ -1,0 +1,3 @@
+*.js    @gotrash/js-review
+*.css   @gotrash/css-review
+*.scss  @gotrash/css-review
