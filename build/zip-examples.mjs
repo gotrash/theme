@@ -18,24 +18,24 @@ const pkgJson = path.join(__dirname, '../package.json')
 const pkg = JSON.parse(await fs.readFile(pkgJson, 'utf8'))
 
 const versionShort = pkg.config.version_short
-const distFolder = `bootstrap-${pkg.version}-examples`
+const distFolder = `gotrash-${pkg.version}-examples`
 const rootDocsDir = '_site'
 const docsDir = `${rootDocsDir}/docs/${versionShort}/`
 
 // these are the files we need in the examples
 const cssFiles = [
-  'bootstrap.min.css',
-  'bootstrap.min.css.map',
-  'bootstrap.rtl.min.css',
-  'bootstrap.rtl.min.css.map'
+  'gotrash.min.css',
+  'gotrash.min.css.map',
+  'gotrash.rtl.min.css',
+  'gotrash.rtl.min.css.map'
 ]
 const jsFiles = [
-  'bootstrap.bundle.min.js',
-  'bootstrap.bundle.min.js.map'
+  'gotrash.bundle.min.js',
+  'gotrash.bundle.min.js.map'
 ]
 const imgFiles = [
-  'bootstrap-logo.svg',
-  'bootstrap-logo-white.svg'
+  'gotrash-logo.svg',
+  'gotrash-logo-white.svg'
 ]
 const staticJsFiles = [
   'color-modes.js'
