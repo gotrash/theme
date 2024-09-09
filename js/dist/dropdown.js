@@ -1,6 +1,6 @@
 /*!
-  * GoTrash Theme dropdown.js v5.3.3 (https://getbootstrap.com/)
-  * Copyright 2011-2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors)
+  * GoTrash Theme dropdown.js v5.3.3 (https://gotrash.co.uk/)
+  * Copyright 2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors) and Alex Scott
   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */
 (function (global, factory) {
@@ -206,7 +206,7 @@
     }
     _createPopper() {
       if (typeof Popper__namespace === 'undefined') {
-        throw new TypeError('GoTrash Theme\'s dropdowns require Popper (https://popper.js.org)');
+        throw new TypeError('GoTrash Theme\'s dropdowns require Popper (https://popper.js.org/docs/v2/)');
       }
       let referenceElement = this._element;
       if (this._config.reference === 'parent') {
@@ -285,7 +285,7 @@
       }
       return {
         ...defaultBsPopperConfig,
-        ...index_js.execute(this._config.popperConfig, [defaultBsPopperConfig])
+        ...index_js.execute(this._config.popperConfig, [undefined, defaultBsPopperConfig])
       };
     }
     _selectMenuItem({

@@ -1,6 +1,6 @@
 /*!
-  * GoTrash Theme manipulator.js v5.3.3 (https://getbootstrap.com/)
-  * Copyright 2011-2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors)
+  * GoTrash Theme manipulator.js v5.3.3 (https://gotrash.co.uk/)
+  * Copyright 2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors) and Alex Scott
   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */
 (function (global, factory) {
@@ -56,7 +56,7 @@
       const bsKeys = Object.keys(element.dataset).filter(key => key.startsWith('bs') && !key.startsWith('bsConfig'));
       for (const key of bsKeys) {
         let pureKey = key.replace(/^bs/, '');
-        pureKey = pureKey.charAt(0).toLowerCase() + pureKey.slice(1, pureKey.length);
+        pureKey = pureKey.charAt(0).toLowerCase() + pureKey.slice(1);
         attributes[pureKey] = normalizeData(element.dataset[key]);
       }
       return attributes;

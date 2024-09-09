@@ -1,6 +1,6 @@
 /*!
-  * GoTrash Theme tooltip.js v5.3.3 (https://getbootstrap.com/)
-  * Copyright 2011-2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors)
+  * GoTrash Theme tooltip.js v5.3.3 (https://gotrash.co.uk/)
+  * Copyright 2024 The GoTrash Theme Authors (https://github.com/gotrash/theme/graphs/contributors) and Alex Scott
   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */
 (function (global, factory) {
@@ -115,7 +115,7 @@
   class Tooltip extends BaseComponent {
     constructor(element, config) {
       if (typeof Popper__namespace === 'undefined') {
-        throw new TypeError('GoTrash Theme\'s tooltips require Popper (https://popper.js.org)');
+        throw new TypeError('GoTrash Theme\'s tooltips require Popper (https://popper.js.org/docs/v2/)');
       }
       super(element, config);
 
@@ -349,7 +349,7 @@
       return offset;
     }
     _resolvePossibleFunction(arg) {
-      return index_js.execute(arg, [this._element]);
+      return index_js.execute(arg, [this._element, this._element]);
     }
     _getPopperConfig(attachment) {
       const defaultBsPopperConfig = {
@@ -387,7 +387,7 @@
       };
       return {
         ...defaultBsPopperConfig,
-        ...index_js.execute(this._config.popperConfig, [defaultBsPopperConfig])
+        ...index_js.execute(this._config.popperConfig, [undefined, defaultBsPopperConfig])
       };
     }
     _setListeners() {
