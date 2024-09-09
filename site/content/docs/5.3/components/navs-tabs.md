@@ -357,7 +357,7 @@ On the `.nav-underline` modifier class:
 
 ## JavaScript behavior
 
-Use the tab JavaScript plugin—include it individually or through the compiled `bootstrap.js` file—to extend our navigational tabs and pills to create tabbable panes of local content.
+Use the tab JavaScript plugin—include it individually or through the compiled `gotrash.js` file—to extend our navigational tabs and pills to create tabbable panes of local content.
 
 <div class="bd-example">
   <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">

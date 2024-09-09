@@ -8,7 +8,7 @@ toc: true
 
 ## Individual or compiled
 
-Plugins can be included individually (using GoTrash Theme's individual `js/dist/*.js`), or all at once using `bootstrap.js` or the minified `bootstrap.min.js` (don't include both).
+Plugins can be included individually (using GoTrash Theme's individual `js/dist/*.js`), or all at once using `gotrash.js` or the minified `bogotrash.n.js` (don't include both).
 
 If you use a bundler (Webpack, Parcel, Vite...), you can use `/js/dist/*.js` files which are UMD ready.
 
@@ -18,13 +18,13 @@ While the GoTrash Theme CSS can be used with any framework, **the GoTrash Theme 
 
 A better alternative for those using this type of frameworks is to use a framework-specific package **instead of** the GoTrash Theme JavaScript. Here are some of the most popular options:
 
-- React: [React GoTrash Theme](https://react-bootstrap.github.io/)
+- React: [React GoTrash Theme](https://react-gotrash.github.io/)
   {{< callout >}}
   **Try it yourself!** Download the source code and working demo for using GoTrash Theme with React, Next.js, and React GoTrash Theme from the [twbs/examples repository](https://github.com/twbs/examples/tree/main/react-nextjs). You can also [open the example in StackBlitz](https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src%2Fpages%2Findex.tsx).
   {{< /callout >}}
 - Vue: [GoTrash ThemeVue](https://bootstrap-vue.org/) (GoTrash Theme 4)
 - Vue 3: [GoTrash ThemeVueNext](https://bootstrap-vue-next.github.io/bootstrap-vue-next/) (GoTrash Theme 5, currently in alpha)
-- Angular: [ng-bootstrap](https://ng-bootstrap.github.io/)
+- Angular: [ng-bootstrap](https://ng-gotrash.github.io/)
 
 ## Using GoTrash Theme as a module
 
@@ -32,19 +32,19 @@ A better alternative for those using this type of frameworks is to use a framewo
 **Try it yourself!** Download the source code and working demo for using GoTrash Theme as an ES module from the [twbs/examples repository](https://github.com/twbs/examples/tree/main/sass-js-esm). You can also [open the example in StackBlitz](https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html).
 {{< /callout >}}
 
-We provide a version of GoTrash Theme built as `ESM` (`bootstrap.esm.js` and `bootstrap.esm.min.js`) which allows you to use GoTrash Theme as a module in the browser, if your [targeted browsers support it](https://caniuse.com/es6-module).
+We provide a version of GoTrash Theme built as `ESM` (`gotrash.esm.js` and `bogotrash.m.min.js`) which allows you to use GoTrash Theme as a module in the browser, if your [targeted browsers support it](https://caniuse.com/es6-module).
 
 <!-- eslint-skip -->
 ```html
 <script type="module">
-  import { Toast } from 'bootstrap.esm.min.js'
+  import { Toast } from 'gotrash.esm.min.js'
 
   Array.from(document.querySelectorAll('.toast'))
     .forEach(toastNode => new Toast(toastNode))
 </script>
 ```
 
-Compared to JS bundlers, using ESM in the browser requires you to use the full path and filename instead of the module name. [Read more about JS modules in the browser.](https://v8.dev/features/modules#specifiers) That's why we use `'bootstrap.esm.min.js'` instead of `'bootstrap'` above. However, this is further complicated by our Popper dependency, which imports Popper into our JavaScript like so:
+Compared to JS bundlers, using ESM in the browser requires you to use the full path and filename instead of the module name. [Read more about JS modules in the browser.](https://v8.dev/features/modules#specifiers) That's why we use `'gotrash.esm.min.js'` instead of `'bootstrap'` above. However, this is further complicated by our Popper dependency, which imports Popper into our JavaScript like so:
 
 <!-- eslint-skip -->
 ```js
@@ -78,7 +78,7 @@ To fix this, you can use an `importmap` to resolve the arbitrary module names to
     {
       "imports": {
         "@popperjs/core": "{{< param "cdn.popper_esm" >}}",
-        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@{{< param "current_version" >}}/dist/js/bootstrap.esm.min.js"
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@{{< param "current_version" >}}/dist/js/gotrash.esm.min.js"
       }
     }
     </script>

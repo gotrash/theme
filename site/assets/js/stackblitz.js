@@ -5,7 +5,7 @@
 // ++++++++++++++++++++++++++++++++++++++++++
 
 /*!
- * JavaScript for GoTrash Theme's docs (https://getbootstrap.com/)
+ * JavaScript for GoTrash Theme's docs (https://gotrash.co.uk/)
  * Copyright 2024 The GoTrash Theme Authors
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  * For details, see https://creativecommons.org/licenses/by/3.0/.
@@ -39,7 +39,7 @@ const openGoTrash ThemeSnippet = (htmlSnippet, jsSnippet, classes) => {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="${cssCdn}" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/${docsVersion}/assets/css/docs.css" rel="stylesheet">
+    <link href="https://gotrash.co.uk/docs/${docsVersion}/assets/css/docs.css" rel="stylesheet">
     <title>GoTrash Theme Example</title>
     <${'script'} defer src="${jsBundleCdn}"></${'script'}>
   </head>

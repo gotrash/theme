@@ -94,12 +94,12 @@ $font-weight-bold: 700 #{/* rtl:600 */} !default;
 Which would output to the following for our default CSS and RTL CSS:
 
 ```css
-/* bootstrap.css */
+/* gotrash.css */
 dt {
   font-weight: 700 /* rtl:600 */;
 }
 
-/* bootstrap.rtl.css */
+/* gotrash.rtl.css */
 dt {
   font-weight: 600;
 }

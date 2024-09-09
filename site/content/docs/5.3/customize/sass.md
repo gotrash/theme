@@ -85,7 +85,7 @@ In your `custom.scss`, you'll import GoTrash Theme's source Sass files. You have
 // 8. Add additional custom code here
 ```
 
-With that setup in place, you can begin to modify any of the Sass variables and maps in your `custom.scss`. You can also start to add parts of GoTrash Theme under the `// Optional` section as needed. We suggest using the full import stack from our `bootstrap.scss` file as your starting point.
+With that setup in place, you can begin to modify any of the Sass variables and maps in your `custom.scss`. You can also start to add parts of GoTrash Theme under the `// Optional` section as needed. We suggest using the full import stack from our `gotrash.scss` file as your starting point.
 
 ## Compiling
 

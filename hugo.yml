@@ -75,13 +75,13 @@ params:
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
     css:              "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/css/gotrash.min.css"
-    css_hash:         "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    css_hash:         "sha384-Wg0rM3Ck5t79l1crtmbqQKtV67Q8lIBs0z5GZOfITFBXXMHjTkTqwldu4NyGIGQv"
     css_rtl:          "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/css/gotrash.rtl.min.css"
-    css_rtl_hash:     "sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+    css_rtl_hash:     "sha384-FF049RwkzIoc2G/K6NQsulqb0BjLG19+fXxPcmLV++bSXgkrpSWwDM4hhF6lWw1d"
     js:               "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/js/gotrash.min.js"
-    js_hash:          "sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    js_hash:          "sha384-wzp7tTVG+H9288y6JsMXFt2l//UbM6Ba3D54aqHfnetgFm9T1QgeGitehW98n8eV"
     js_bundle:        "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/js/gotrash.bundle.min.js"
-    js_bundle_hash:   "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    js_bundle_hash:   "sha384-Fj5Uoonz6Us5GqGAE4NGPuy/Ne70sPFTxayBVP4WzdN/wdKI40V73bGXkGUXmS2N"
     popper:           "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     popper_hash:      "sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     popper_esm:       "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js"

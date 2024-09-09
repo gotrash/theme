@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="GoTrash Theme logo" width="200" height="165">
+  <a href="https://gotrash.co.uk/">
+    <img src="https://gotrash.co.uk/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="GoTrash Theme logo" width="200" height="165">
   </a>
 </p>
 
@@ -9,16 +9,16 @@
 <p align="center">
   Sleek, intuitive, and powerful front-end framework for faster and easier web development.
   <br>
-  <a href="https://getbootstrap.com/docs/5.3/"><strong>Explore GoTrash Theme docs »</strong></a>
+  <a href="https://gotrash.co.uk/docs/5.3/"><strong>Explore GoTrash Theme docs »</strong></a>
   <br>
   <br>
   <a href="https://github.com/gotrash/theme/issues/new?assignees=-&labels=bug&template=bug_report.yml">Report bug</a>
   ·
   <a href="https://github.com/gotrash/theme/issues/new?assignees=&labels=feature&template=feature_request.yml">Request feature</a>
   ·
-  <a href="https://themes.getbootstrap.com/">Themes</a>
+  <a href="https://themes.gotrash.co.uk/">Themes</a>
   ·
-  <a href="https://blog.getbootstrap.com/">Blog</a>
+  <a href="https://blog.gotrash.co.uk/">Blog</a>
 </p>
 
 
@@ -51,9 +51,9 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com/): `npm install bootstrap@v5.3.3`
 - Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@v5.3.3`
 - Install with [Composer](https://getcomposer.org/): `composer require gotrash/theme:5.3.3`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package bootstrap.sass`
+- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package gotrash.sass`
 
-Read the [Getting started page](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for information on the framework contents, templates, examples, and more.
+Read the [Getting started page](https://gotrash.co.uk/docs/5.3/getting-started/introduction/) for information on the framework contents, templates, examples, and more.
 
 
 ## Status
@@ -65,10 +65,10 @@ Read the [Getting started page](https://getbootstrap.com/docs/5.3/getting-starte
 [![Packagist Prerelease](https://img.shields.io/packagist/vpre/gotrash/theme?logo=packagist&logoColor=fff)](https://packagist.org/packages/gotrash/theme)
 [![NuGet](https://img.shields.io/nuget/vpre/bootstrap?logo=nuget&logoColor=fff)](https://www.nuget.org/packages/bootstrap/absoluteLatest)
 [![Coverage Status](https://img.shields.io/coveralls/github/gotrash/theme/main?logo=coveralls&logoColor=fff)](https://coveralls.io/github/gotrash/theme?branch=main)
-[![CSS gzip size](https://img.badgesize.io/gotrash/theme/main/dist/css/bootstrap.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/gotrash/theme/blob/main/dist/css/bootstrap.min.css)
-[![CSS Brotli size](https://img.badgesize.io/gotrash/theme/main/dist/css/bootstrap.min.css?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/gotrash/theme/blob/main/dist/css/bootstrap.min.css)
-[![JS gzip size](https://img.badgesize.io/gotrash/theme/main/dist/js/bootstrap.min.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/gotrash/theme/blob/main/dist/js/bootstrap.min.js)
-[![JS Brotli size](https://img.badgesize.io/gotrash/theme/main/dist/js/bootstrap.min.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/gotrash/theme/blob/main/dist/js/bootstrap.min.js)
+[![CSS gzip size](https://img.badgesize.io/gotrash/theme/main/dist/css/gotrash.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/gotrash/theme/blob/main/dist/css/gotrash.min.css)
+[![CSS Brotli size](https://img.badgesize.io/gotrash/theme/main/dist/css/gotrash.min.css?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/gotrash/theme/blob/main/dist/css/gotrash.min.css)
+[![JS gzip size](https://img.badgesize.io/gotrash/theme/main/dist/js/gotrash.min.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/gotrash/theme/blob/main/dist/js/gotrash.min.js)
+[![JS Brotli size](https://img.badgesize.io/gotrash/theme/main/dist/js/gotrash.min.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/gotrash/theme/blob/main/dist/js/gotrash.min.js)
 [![Backers on Open Collective](https://img.shields.io/opencollective/backers/bootstrap?logo=opencollective&logoColor=fff)](#backers)
 [![Sponsors on Open Collective](https://img.shields.io/opencollective/sponsors/bootstrap?logo=opencollective&logoColor=fff)](#sponsors)
 
@@ -107,31 +107,31 @@ Within the download you'll find the following directories and files, logically g
   │   ├── bootstrap-utilities.rtl.css.map
   │   ├── bootstrap-utilities.rtl.min.css
   │   ├── bootstrap-utilities.rtl.min.css.map
-  │   ├── bootstrap.css
-  │   ├── bootstrap.css.map
-  │   ├── bootstrap.min.css
-  │   ├── bootstrap.min.css.map
-  │   ├── bootstrap.rtl.css
-  │   ├── bootstrap.rtl.css.map
-  │   ├── bootstrap.rtl.min.css
-  │   └── bootstrap.rtl.min.css.map
+  │   ├── gotrash.css
+  │   ├── gotrash.css.map
+  │   ├── gotrash.min.css
+  │   ├── gotrash.min.css.map
+  │   ├── gotrash.rtl.css
+  │   ├── gotrash.rtl.css.map
+  │   ├── gotrash.rtl.min.css
+  │   └── gotrash.rtl.min.css.map
   └── js/
-      ├── bootstrap.bundle.js
-      ├── bootstrap.bundle.js.map
-      ├── bootstrap.bundle.min.js
-      ├── bootstrap.bundle.min.js.map
-      ├── bootstrap.esm.js
-      ├── bootstrap.esm.js.map
-      ├── bootstrap.esm.min.js
-      ├── bootstrap.esm.min.js.map
-      ├── bootstrap.js
-      ├── bootstrap.js.map
-      ├── bootstrap.min.js
-      └── bootstrap.min.js.map
+      ├── gotrash.bundle.js
+      ├── gotrash.le.js.map
+      ├── gotrash.bundle.min.js
+      ├── gotrash.bundle.min.js.map
+      ├── gotrash.esm.js
+      ├── gotrash.esm.js.map
+      ├── gotrash.esm.min.js
+      ├── gotrash.esm.min.js.map
+      ├── gotrash.js
+      ├── gotrash.js.map
+      ├── gotrash.min.js
+      └── gotrash.min.js.map
   ```
 </details>
 
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [Source maps](https://web.dev/articles/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/docs/v2/).
+We provide compiled CSS and JS (`gotrash.*`), as well as compiled and minified CSS and JS (`gotrash.min.*`). [Source maps](https://web.dev/articles/source-maps) (`gotrash.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`gotrash.bundle.js` and minified `gotrash.bundle.min.js`) include [Popper](https://popper.js.org/docs/v2/).
 
 
 ## Bugs and feature requests
@@ -141,7 +141,7 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Documentation
 
-GoTrash Theme's documentation, included in this repo in the root directory, is built with [Hugo](https://gohugo.io/) and publicly hosted on GitHub Pages at <https://getbootstrap.com/>. The docs may also be run locally.
+GoTrash Theme's documentation, included in this repo in the root directory, is built with [Hugo](https://gohugo.io/) and publicly hosted on GitHub Pages at <https://gotrash.co.uk/>. The docs may also be run locally.
 
 Documentation search is powered by [Algolia's DocSearch](https://docsearch.algolia.com/).
 
@@ -156,7 +156,7 @@ Learn more about using Hugo by reading its [documentation](https://gohugo.io/doc
 
 ### Documentation for previous releases
 
-You can find all our previous releases docs on <https://getbootstrap.com/docs/versions/>.
+You can find all our previous releases docs on <https://gotrash.co.uk/docs/versions/>.
 
 [Previous releases](https://github.com/gotrash/theme/releases) and their documentation are also available for download.
 
@@ -175,7 +175,7 @@ Editor preferences are available in the [editor config](https://github.com/gotra
 Get updates on GoTrash Theme's development and chat with the project maintainers and community members.
 
 - Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
-- Read and subscribe to [The Official GoTrash Theme Blog](https://blog.getbootstrap.com/).
+- Read and subscribe to [The Official GoTrash Theme Blog](https://blog.gotrash.co.uk/).
 - Ask questions and explore [our GitHub Discussions](https://github.com/gotrash/theme/discussions).
 - Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [GoTrash Theme subreddit](https://www.reddit.com/r/bootstrap/).
 - Chat with fellow GoTrash Themepers in IRC. On the `irc.libera.chat` server, in the `#bootstrap` channel.
@@ -187,7 +187,7 @@ Get updates on GoTrash Theme's development and chat with the project maintainers
 
 For transparency into our release cycle and in striving to maintain backward compatibility, GoTrash Theme is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
 
-See [the Releases section of our GitHub project](https://github.com/gotrash/theme/releases) for changelogs for each release version of GoTrash Theme. Release announcement posts on [the official GoTrash Theme blog](https://blog.getbootstrap.com/) contain summaries of the most noteworthy changes made in each release.
+See [the Releases section of our GitHub project](https://github.com/gotrash/theme/releases) for changelogs for each release version of GoTrash Theme. Release announcement posts on [the official GoTrash Theme blog](https://blog.gotrash.co.uk/) contain summaries of the most noteworthy changes made in each release.
 
 
 ## Creators

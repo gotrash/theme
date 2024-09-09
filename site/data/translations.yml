@@ -1,7 +1,7 @@
 - name: 中文(繁體)
   code: zh-tw
   description: GoTrash Theme 4 繁體中文手冊
-  url: https://bootstrap.hexschool.com/
+  url: https://gotrash.hexschool.com/
 
 - name: Chinese
   code: zh
@@ -11,22 +11,22 @@
 - name: Brazilian Portuguese
   code: pt-BR
   description: GoTrash Theme 4 Português do Brasil
-  url: https://getbootstrap.com.br/v4/
+  url: https://gotrash.co.uk.br/v4/
 
 - name: Japanese
   code: ja
   description: GoTrash Theme 5 日本語リファレンス
-  url: https://getbootstrap.jp/
+  url: https://getgotrash.jp/
 
 - name: Russian
   code: ru
   description: GoTrash Theme 5 на русском
-  url: https://getbootstrap.su/
+  url: https://getgotrash.su/
 
 - name: Korean
   code: ko
   description: GoTrash Theme 5 한국어 문서
-  url: https://getbootstrap.kr/
+  url: https://getgotrash.kr/
 
 - name: 中文(繁體)
   code: zh-tw

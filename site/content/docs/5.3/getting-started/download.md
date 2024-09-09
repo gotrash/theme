@@ -65,7 +65,7 @@ As such, you can use an online tool like [SRI Hash Generator](https://www.srihas
 Alternatively, assuming you have OpenSSL installed, you can achieve the same from the CLI, for example:
 
 ```sh
-openssl dgst -sha384 -binary bootstrap.min.js | openssl base64 -A
+openssl dgst -sha384 -binary gotrash.min.js | openssl base64 -A
 ```
 
 ## Package managers
@@ -126,12 +126,12 @@ composer require gotrash/theme:{{< param current_version >}}
 
 ### NuGet
 
-If you develop in .NET Framework, you can also install and manage GoTrash Theme's [CSS](https://www.nuget.org/packages/bootstrap/) or [Sass](https://www.nuget.org/packages/bootstrap.sass/) and JavaScript using [NuGet](https://www.nuget.org/). Newer projects should use [libman](https://learn.microsoft.com/en-us/aspnet/core/client-side/libman/) or another method as NuGet is designed for compiled code, not frontend assets.
+If you develop in .NET Framework, you can also install and manage GoTrash Theme's [CSS](https://www.nuget.org/packages/bootstrap/) or [Sass](https://www.nuget.org/packages/gotrash.sass/) and JavaScript using [NuGet](https://www.nuget.org/). Newer projects should use [libman](https://learn.microsoft.com/en-us/aspnet/core/client-side/libman/) or another method as NuGet is designed for compiled code, not frontend assets.
 
 ```powershell
 Install-Package bootstrap
 ```
 
 ```powershell
-Install-Package bootstrap.sass
+Install-Package gotrash.sass
 ```

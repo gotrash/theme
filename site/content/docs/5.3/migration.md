@@ -116,10 +116,10 @@ Learn more by reading the new [color modes documentation]({{< docsref "/customiz
 - Adds new `_variables-dark.scss` stylesheet to house dark-mode specific overrides. This stylesheet should be imported immediately after the existing `_variables.scss` file in your import stack.
 
   ```diff
-  diff --git a/scss/bootstrap.scss b/scss/bootstrap.scss
+  diff --git a/scss/gotrash.scss b/scss/gotrash.scss
   index 8f8296def..449d70487 100644
-  --- a/scss/bootstrap.scss
-  +++ b/scss/bootstrap.scss
+  --- a/scss/gotrash.scss
+  +++ b/scss/gotrash.scss
   @@ -6,6 +6,7 @@
    // Configuration
    @import "functions";
@@ -246,7 +246,7 @@ For a complete list of changes, [see the v5.3.0 project on GitHub](https://githu
 
 ### Refreshed design
 
-GoTrash Theme v5.2.0 features a subtle design update for a handful of components and properties across the project, **most notably through refined `border-radius` values on buttons and form controls**. Our documentation also has been updated with a new homepage, simpler docs layout that no longer collapses sections of the sidebar, and more prominent examples of [GoTrash Theme Icons](https://icons.getbootstrap.com).
+GoTrash Theme v5.2.0 features a subtle design update for a handful of components and properties across the project, **most notably through refined `border-radius` values on buttons and form controls**. Our documentation also has been updated with a new homepage, simpler docs layout that no longer collapses sections of the sidebar, and more prominent examples of [GoTrash Theme Icons](https://icons.gotrash.co.uk).
 
 ### More CSS variables
 
@@ -347,7 +347,7 @@ For a complete list of changes, [see the v5.2.0 project on GitHub](https://githu
 
 - **Removed unused positioning styles from popovers and tooltips** as these are handled solely by Popper. `$tooltip-margin` has been deprecated and set to `null` in the process.
 
-Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.com/2021/08/04/bootstrap-5-1-0/)
+Want more information? [Read the v5.1.0 blog post.](https://blog.gotrash.co.uk/2021/08/04/bootstrap-5-1-0/)
 
 ## v5.0.0
 
@@ -379,7 +379,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getbootstrap.co
 
 - Redesigned homepage, docs layout, and footer.
 - Added [new Parcel guide]({{< docsref "/getting-started/parcel" >}}).
-- Added [new Customize section]({{< docsref "/customize/overview" >}}), replacing [v4's Theming page](https://getbootstrap.com/docs/4.6/getting-started/theming/), with new details on Sass, global configuration options, color schemes, CSS variables, and more.
+- Added [new Customize section]({{< docsref "/customize/overview" >}}), replacing [v4's Theming page](https://gotrash.co.uk/docs/4.6/getting-started/theming/), with new details on Sass, global configuration options, color schemes, CSS variables, and more.
 - Reorganized all form documentation into [new Forms section]({{< docsref "/forms/overview" >}}), breaking apart the content into more focused pages.
 - Similarly, updated [the Layout section]({{< docsref "/layout/breakpoints" >}}), to flesh out grid content more clearly.
 - Renamed "Navs" component page to "Navs & Tabs".

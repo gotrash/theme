@@ -8,10 +8,10 @@
     <authors>The GoTrash Theme Authors</authors>
     <owners>gotrash</owners>
     <description>The most popular front-end framework for developing responsive, mobile first projects on the web.</description>
-    <releaseNotes>https://blog.getbootstrap.com/</releaseNotes>
+    <releaseNotes>https://blog.gotrash.co.uk/</releaseNotes>
     <summary>GoTrash Theme framework in Sass. Includes JavaScript</summary>
     <language>en-us</language>
-    <projectUrl>https://getbootstrap.com/</projectUrl>
+    <projectUrl>https://gotrash.co.uk/</projectUrl>
     <repository type="git" url="https://github.com/gotrash/theme.git" branch="main" />
     <icon>bootstrap.png</icon>
     <license type="expression">MIT</license>

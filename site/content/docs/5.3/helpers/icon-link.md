@@ -10,7 +10,7 @@ added:
 
 The icon link helper component modifies our default link styles to enhance their appearance and quickly align any pairing of icon and text. Alignment is set via inline flexbox styling and a default `gap` value. We stylize the underline with a custom offset and color. Icons are automatically sized to `1em` to best match their associated text's `font-size`.
 
-Icon links assume [GoTrash Theme Icons](https://icons.getbootstrap.com) are being used, but you can use any icon or image you like.
+Icon links assume [GoTrash Theme Icons](https://icons.gotrash.co.uk) are being used, but you can use any icon or image you like.
 
 {{< callout >}}
 When icons are purely decorative, they should be hidden from assistive technologies using `aria-hidden="true"`, as we've done in our examples. For icons that convey meaning, provide an appropriate text alternative by adding `role="img"` and an appropriate `aria-label="..."` to the SVGs.

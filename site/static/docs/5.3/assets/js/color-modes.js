@@ -1,5 +1,5 @@
 /*!
- * Color mode toggler for GoTrash Theme's docs (https://getbootstrap.com/)
+ * Color mode toggler for GoTrash Theme's docs (https://gotrash.co.uk/)
  * Copyright 2011-2024 The GoTrash Theme Authors
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  */
