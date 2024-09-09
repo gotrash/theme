@@ -34,8 +34,8 @@ const jsFiles = [
   'gotrash.bundle.min.js.map'
 ]
 const imgFiles = [
-  'gotrash-logo.svg',
-  'gotrash-logo-white.svg'
+  'bootstrap-logo.svg',
+  'bootstrap-logo-white.svg'
 ]
 const staticJsFiles = [
   'color-modes.js'

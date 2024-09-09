@@ -75,9 +75,9 @@ params:
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
     css:              "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/css/gotrash.min.css"
-    css_hash:         "sha384-Wg0rM3Ck5t79l1crtmbqQKtV67Q8lIBs0z5GZOfITFBXXMHjTkTqwldu4NyGIGQv"
+    css_hash:         "sha384-2lH/LHHpZMQyAiVmS/BmOOvW95boS18uVq5ct95Lgc98y8vtwZemmfyA80NrxuPo"
     css_rtl:          "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/css/gotrash.rtl.min.css"
-    css_rtl_hash:     "sha384-FF049RwkzIoc2G/K6NQsulqb0BjLG19+fXxPcmLV++bSXgkrpSWwDM4hhF6lWw1d"
+    css_rtl_hash:     "sha384-fEf9zMrtsd+nmRdNrEuDd5fw+okrOm82Wipx8TbzxnvIwX7UW8agM9XeWN2T5bn8"
     js:               "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/js/gotrash.min.js"
     js_hash:          "sha384-wzp7tTVG+H9288y6JsMXFt2l//UbM6Ba3D54aqHfnetgFm9T1QgeGitehW98n8eV"
     js_bundle:        "https://cdn.jsdelivr.net/npm/gotrash@5.3.3/dist/js/gotrash.bundle.min.js"

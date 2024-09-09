@@ -28,11 +28,11 @@ document.querySelectorAll('.btn-edit').forEach(btn => {
     // Get extra classes for this example
     const classes = Array.from(exampleEl.classList).join(' ')
 
-    openGoTrash ThemeSnippet(htmlSnippet, jsSnippet, classes)
+    openBootstrapThemeSnippet(htmlSnippet, jsSnippet, classes)
   })
 })
 
-const openGoTrash ThemeSnippet = (htmlSnippet, jsSnippet, classes) => {
+const openBootstrapThemeSnippet = (htmlSnippet, jsSnippet, classes) => {
   const indexHtml = `<!doctype html>
 <html lang="en">
   <head>
