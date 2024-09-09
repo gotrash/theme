@@ -12,7 +12,7 @@ const year = new Date().getFullYear()
 function getBanner(pluginFilename) {
   return `/*!
   * GoTrash Theme${pluginFilename ? ` ${pluginFilename}` : ''} v${pkg.version} (${pkg.homepage})
-  * Copyright ${year === "2024" ? year : "2024-" + year} ${pkg.author}
+  * Copyright ${year === 2024 ? year : "2024-" + year} ${pkg.author}
   * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
   */`
 }
