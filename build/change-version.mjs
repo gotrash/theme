@@ -2,7 +2,7 @@
 
 /*!
  * Script to update version number references in the project.
- * Copyright 2017-2024 The GoTrash Themeheme Authors
+ * Copyright 2017-2024 The GoTrash Theme Authors
  * Licensed under MIT (https://github.com/gotrash/theme/blob/main/LICENSE)
  */
 
